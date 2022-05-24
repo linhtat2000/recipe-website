@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.header {
+  height: 100vh;
+  background: url("../../assets/header.png") no-repeat center;
+  background-size: cover;
+
+  .slogan {
+    padding: calc($nav-height + 6em) 8em;
+
+    h2:first-child {
+      margin-left: 2.6em;
+    }
+
+    h2,
+    strong {
+      font-size: 3.6rem;
+      font-weight: 300;
+
+      font-family: "Pacifico", cursive;
+      color: $secondary-clr;
+    }
+
+    p {
+      margin-left: 1.6em;
+      font-size: 1.4rem;
+      word-spacing: 0.2em;
+    }
+  }
+}
